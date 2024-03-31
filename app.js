@@ -10,7 +10,7 @@ function generatePassword(length) {
     }
     password.innerHTML = result;
 }
-btn === null || btn === void 0 ? void 0 : btn.addEventListener('click', function () {
+btn.addEventListener('click', function () {
     if (input.value !== null) {
         generatePassword(parseInt(input.value));
     }
